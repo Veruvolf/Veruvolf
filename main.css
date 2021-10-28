@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+  
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url (IMG_5150.JPG)no-repeat;
+    background-size: cover;
+    background-position:center;  /* seems like there is a mistake but I dont know where? why is the picture not there?*/
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+header{
+   
+position: relative;
+top: 0 ;
+width: 100;
+padding: 30px 100px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+header .logo{               /* how do I allign this with the navigation bar?*/
+    position: relative;
+    color: rgb(43, 42, 42);
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    
+    
+}
+
+header .container a {
+color: #000;
+
+text-decoration: none;
+font-weight: 500;
+letter-spacing: 1px;
+padding: 2px 15px;
+
+}
+
+header .container a:not(:last-child){
+    margin: 30px;
+}
+
+.content{
+    max-width: 650px;
+    margin: 300px 100px;
+}
+.content .info h2 {
+    color: rgb(43, 42, 42);
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 60px; /* the space above an dbeyond*/
+    margin-bottom: 30px;
+
+}
+
+.content .info h2 span{
+    color:brown;
+    font-size: 50px ;
+    font-weight: 600;
+
+}
+
+.content .info-btn{
+    color: rgb(43, 42, 42);
+    background: rgb(160, 160, 160);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+   
+    transition: 0.3s;
+    transition-property: background; /* why is this red?*/
+
+}
+
+.content .CV-btn{
+    color: rgb(43, 42, 42);
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    
+    transition: 0.3s;
+    
+
+}
+.content .CV-btn:hover{
+    font-weight: 500; 
+    
+}
+
+.content .info-btn:hover{
+    background: rgb(219, 219, 219);
+}
+
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+
+nav{
+    float: right;
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-left:  70px;
+    padding-top: 25px; 
+    position: relative; /* relative to my list item not the page size */
+}
+
+nav a{
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900; /* this doesen seem to do anything. why?*/
+
+}
+
+nav a:hover{
+    color: rgb(182, 180, 180);
+    
+}
+
+
+ 
+
+
